@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-app-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 175px;
+}
+.app-image {
+  height: 80px;
+}
+.app-name {
+  text-align: center;
+}

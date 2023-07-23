@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.unodered-tab-list {
+  padding-left: 0px;
+  display: flex;
+}
+.unodered-app-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.web-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+}
+.bg-container {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-icon {
+  height: 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 4px;
+}
+.search-box {
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+}
+.main-heading {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .web-page {
+    height: 100%;
+  }
+}
